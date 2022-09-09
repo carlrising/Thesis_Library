@@ -1,0 +1,85 @@
+body{
+    background-image: url('pictures/library.png');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container{
+    background: rgb(244,244,244);
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    width: 450px;
+    height: 450px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 10px 15px #7e7e7e;
+}
+.logo{
+    position: absolute;
+    top: 22px;
+    left: 130px;
+}
+input{
+	position: absolute;
+	top: 104px;
+	left: 11px;
+}
+.input-textbox{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 350px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-clip: padding-box;
+    background-color: #f2f2f2;
+    box-shadow: inset 0 1px 4px #7e7e7e;
+    padding: 1px 6px;
+    margin-bottom: 45px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.usertext{
+    position: absolute;
+    left: 80px;
+    top: 190px;
+    font-family: Arial;
+}
+.passtext{
+    position: absolute;
+    left: 80px;
+    top: 290px;
+    font-family: Arial;
+}
+.input-textbox::-webkit-input-placeholder{
+	color: #ADADAD;
+	font-weight: normal;
+}
+input[type=submit]{
+    position: relative;
+    left: 180px;
+    top: 185px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(221, 42, 42);
+    width: 85px;
+    height: 85px;
+    border-radius: 60px;
+}
+input[type=submit]:hover{
+    background-color:red;
+}

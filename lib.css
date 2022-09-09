@@ -1,0 +1,18 @@
+.card{
+    position: relative;
+    top: 125px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 80px;
+    margin-bottom: 45px;
+}
+.nav-item{
+    position: relative;
+    top: 10px;
+    left: 1600px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0%;
+    margin-bottom: 10px;
+}

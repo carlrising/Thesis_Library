@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+}
+.nav-item{
+    position: relative;
+    top: 22px;
+    left: 1600px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container{
+    position: relative;
+    top: 100px;
+}
+.row{
+    position: relative;
+    right: 130px;
+}
+.position{
+    position: relative;
+    top: -320px;
+    left: 650px;
+}

@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+    height: 100%;
+    background-color: rgb(250, 242, 242);
+}
+.nav-item{
+    position: relative;
+    top: 22px;
+    left: 1600px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.img-intro-pos{
+    margin-bottom: -30px;
+    padding: 0%;
+    position: relative;
+    top: 100px;
+}
+.img-intro-pos h1{
+    margin-bottom: 2px;
+    position: relative;
+    top: -400px;
+    left: 0px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Cinzel";
+    color:  rgb(255, 255, 255);
+}
+.carousel-pos{
+    margin-right: 1020px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    background-color: rgb(218, 214, 214);
+    float: left;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}   
+.accordion-pos{
+    position: absolute;
+    border-radius: 20px;
+    padding-bottom: 530px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 160px;
+    margin-right: 20px;
+    float: right;
+    bottom: 525px;
+    top: 750px;
+    left: 920px;
+    width: 10in;
+    background-color: rgb(218,214,214);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    font-size: 12px;
+}
+.accordion-pos h2, .accordion-pos h6{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-family: 'Fira Sans', 'sans-serif';
+}
